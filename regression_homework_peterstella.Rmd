@@ -208,7 +208,6 @@ cor.test(train_regression$Wind, resid(linear_regression))
 
 5. Create a linear model using L1 or L2 regularization to predict Temperature from Wind and Month variables. Plot your predicted values and the real Y values on the same plot. 
 ```{r}
-install.packages("glmnet")
 library(glmnet)
 library(Matrix)
 
